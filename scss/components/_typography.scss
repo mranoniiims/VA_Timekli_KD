@@ -1,0 +1,53 @@
+@use "../custom" as *;
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+
+  &--intro {
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Aquire", sans-serif;
+    color: gold;
+  }
+
+  &--description {
+    font-size: 1rem;
+    display: block;
+    font-family: "Aquire", sans-serif;
+    color: gold;
+    margin-top: 1.2rem;
+  }
+}
+
+.display-3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Aquire", sans-serif;
+  color: black;
+}
+
+.display-4 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Aquire", sans-serif;
+  color: gold;
+}
+
+.display-5 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Aquire", sans-serif;
+  color: gold;
+}
+
+.display-6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Aquire", sans-serif;
+  color: gold;
+}

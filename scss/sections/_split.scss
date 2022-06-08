@@ -1,0 +1,8 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.split {
+  @include gradient;
+  width: 100%;
+  height: 100%;
+}

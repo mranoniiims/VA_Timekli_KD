@@ -1,0 +1,29 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.portfolio {
+  @include gradient;
+  padding: 10rem 0 10rem 0;
+
+  img {
+    height: 650px;
+  }
+
+  h5 {
+    font-family: Aquire;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+
+  p {
+    font-family: Aquire;
+    font-weight: 500;
+    font-size: x-large;
+  }
+
+  .carousel-caption {
+    background-color: rgb($primary, 0.5);
+    border-radius: 25px;
+    border: 2px solid gold;
+  }
+}

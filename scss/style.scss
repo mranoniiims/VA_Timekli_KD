@@ -1,0 +1,12 @@
+@use "custom";
+
+@use "components/mixins";
+@use "components/typography";
+
+@use "sections/navbar";
+@use "sections/intro";
+@use "sections/about-me";
+@use "sections/portfolio";
+@use "sections/footer";
+@use "sections/split";
+@use "sections/contactme";

@@ -1,0 +1,14 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.intro {
+  @include gradient;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+.img-fluid {
+  border: 2px solid $primary;
+  box-shadow: 10px 10px 5px $primary;
+  border-radius: 25px;
+}

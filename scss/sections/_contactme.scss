@@ -1,0 +1,28 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.contactme {
+  @include gradient;
+  padding: 10rem 0 10rem 0;
+
+  p {
+    font-family: "Aquire", sans-serif;
+    color: gold;
+  }
+
+  label {
+    font-family: "Aquire", sans-serif;
+    color: gold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  option {
+    font-family: "Aquire", sans-serif;
+    color: black;
+  }
+
+  .btn {
+    margin-top: 0.5rem;
+  }
+}
