@@ -10803,7 +10803,7 @@ textarea.form-control-lg {
   height: 100%;
 }
 .about-me p {
-  font-family: Aquire;
+  font-family: "Aquire", sans-serif;
   font-size: x-large;
   font-weight: 700;
 }
@@ -10819,12 +10819,12 @@ textarea.form-control-lg {
   height: 650px;
 }
 .portfolio h5 {
-  font-family: Aquire;
+  font-family: "Aquire", sans-serif;
   font-weight: 700;
   font-size: xx-large;
 }
 .portfolio p {
-  font-family: Aquire;
+  font-family: "Aquire", sans-serif;
   font-weight: 500;
   font-size: x-large;
 }
@@ -10840,7 +10840,7 @@ textarea.form-control-lg {
   background-color: black;
 }
 .footer .contact-box {
-  font-family: Aquire;
+  font-family: "Aquire", sans-serif;
   color: gold;
   position: relative;
 }
